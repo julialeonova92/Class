@@ -1,4 +1,5 @@
 #Class
+require 'date'
 require 'csv'
 class Movie
 	attr_reader :title, :year, :country, :date, :genre, :longe, :rating, :director, :actor
